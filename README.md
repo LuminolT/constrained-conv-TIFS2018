@@ -1,6 +1,8 @@
 # Source code for: "Constrained Convolutional Neural Networks: A New approach Towards General Purpose Image Manipulation Detection"
 by Belhassen Bayar and Matthew C. Stamm
+
 Deparment of Electrical and Computer Engineering
+
 Drexel University - Philadelphia, PA, USA
 
 ## About
