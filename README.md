@@ -40,7 +40,7 @@ Make sure to add the appropriate paths in every file as needed.
 
 Train MISLnet architecture by running the following command line under caffe_scripts directory:
 ```
-python training_mislnet.py 2>&1 | tee -a /path/to/data/mislnet_train_date.log
+python training_mislnet.py 2>&1 | tee -a mislnet_train_date.log
 ```
 Create image manipulation testing lmdb data by running the following command line under caffe_scripts directory:
 ```
