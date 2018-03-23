@@ -1,9 +1,9 @@
-#Source code for: "Constrained Convolutional Neural Networks: A New approach Towards General Purpose Image Manipulation Detection"
+# Source code for: "Constrained Convolutional Neural Networks: A New approach Towards General Purpose Image Manipulation Detection"
 by Belhassen Bayar and Matthew C. Stamm
 Deparment of Electrical and Computer Engineering
 Drexel University - Philadelphia, PA, USA
 
-##About
+## About
 
 This repository contains pycaffe scripts for general purpose image manipulation detection using constrained convolutional neural network (CNN), i.e., MISLnet architecture. The functions within this repository perform the following tasks:
 
