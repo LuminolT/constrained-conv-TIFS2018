@@ -19,7 +19,8 @@ This repository contains pycaffe scripts for general purpose image manipulation 
 
 ## Installation
 
-You only need to download the folder `caffe_scripts` or clone via git.
+1. Download the repository .zip  or clone via git. 
+2. Extract `caffe_scripts` folder.
 
 ## Requirements
 
