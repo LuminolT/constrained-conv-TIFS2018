@@ -35,7 +35,7 @@ python2.7 with packages:
 
 ## Examples of running python scripts
 
-Most of the provided scripts and files contains paths to data or prototxt file. <b/>
+Most of the provided scripts and files contain paths to data or prototxt file. <b/>
 Make sure to add the appropriate paths in every file as needed.
 
 Train MISLnet architecture by running the following command line under caffe_scripts directory:
