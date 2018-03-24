@@ -26,6 +26,7 @@ You only need to download the repository `caffe_scripts.zip` or clone via git.
 python2.7 with packages:
 
 - [caffe](https://github.com/BVLC/caffe)
+- lmdb
 - opencv2
 - numpy
 - scipy
