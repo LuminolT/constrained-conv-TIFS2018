@@ -51,7 +51,7 @@ if __name__ == '__main__':
 		tmpg = cv2.GaussianBlur(tmp,(5,5),0) #Gaussian blur with default sigma=1.1 and kernel size 5x5
 		awgn = 2.0*np.random.randn(tmp.shape[0],tmp.shape[1]) #Additive While Gaussian Noise with sigma=2
 		tmpw = (tmp+awgn)
-		tmpw = np.clip(tmpw,0,255) #Set to zero values out of the range [0,255]
+		tmpw = np.clip(tmpw,0,255) #Keep image pixel values within [0,255] range
 		tmpw = tmpw.astype(np.uint8)
 		vblocks = np.vsplit(tmp, tmp.shape[0]/256) #split image patch into vertical blocks
 		shuffle(vblocks)
