@@ -8,7 +8,7 @@ average_loss: 40
 base_lr: 0.001
 lr_policy: "step"
 stepsize: 56250
-#We found out that training with stepsize of 3 epochs gives similar results to 6 epochs for 1.2M training patches
+#We found that training with stepsize of 3 epochs gives similar results to 6 epochs for 1.2M training patches
 #This will significantly save the training time
 gamma: 0.5
 max_iter: 675200
