@@ -49,7 +49,7 @@ python create_forgery_lmdb.py 2>&1 | tee -a data_creation.log
 ```
 ## Useful hints
 
-#### Running scripts in the backgroud mode
+##### Running scripts in the backgroud mode
 If you would like to run your code in the background mode in order to close your terminal or SSH session, you should follow these steps:
 1. Hit ``Ctrl+Z``: This will temporarly suspend your program.
 2. ``bg`` (Followed by "Enter" button): This will resume running your program in the background mode.
@@ -57,7 +57,7 @@ If you would like to run your code in the background mode in order to close your
 
 Later you can monitor the progress of your program by accessing the log file (e.g., mislnet_train_date.log) using your vi/vim editor.
 
-#### Display validation accuracy
+##### Display validation accuracy
 To display the validation accuracy recorded in the log file while training the CNN, you can use the following command line:
 
 ```
