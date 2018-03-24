@@ -16,7 +16,7 @@ import cPickle
 
 if __name__ == '__main__':
 	os.chdir('/home/belhassen/caffe_scripts')
-	ll = cPickle.load(open('imglst_test.dmp', 'r')) #loast the list of images that has been used for the testing. These images have never been used for training
+	ll = cPickle.load(open('imglst_test.dmp', 'r')) #load the list of images that have been used for the testing. These images have never been used for training
 	os.chdir('/home/belhassen/DID_natural_all') #Change work directory to where you saved your Dresden images
 	
 	n = 1280 #cropping height 256x5
