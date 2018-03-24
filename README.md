@@ -1,4 +1,4 @@
-# Source code for: "Constrained Convolutional Neural Networks: A New approach Towards General Purpose Image Manipulation Detection"
+# Source code for MISLnet: "Constrained Convolutional Neural Networks: A New approach Towards General Purpose Image Manipulation Detection"
 by Belhassen Bayar and Matthew C. Stamm <br/>
 Deparment of Electrical and Computer Engineering <br/>
 Drexel University - Philadelphia, PA, USA
