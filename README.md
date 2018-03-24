@@ -55,7 +55,7 @@ If you would like to run your code in the background mode in order to close your
 2. ``bg`` (Followed by "Enter" button): This will resume running your program in the background mode.
 3. ``disown -h`` (Followed by "Enter" button): This removes the process from the shell's job control, but it still leaves it connected to the terminal.
 
-Later you can monitor the progress of your program by accessing the log file (e.g., mislnet_train_date.log) using your vi/vim editor.
+Later you can check the progress of your program by accessing the log file (e.g., mislnet_train_date.log) using your vi/vim editor.
 
 ##### Display validation accuracy
 To display the validation accuracy recorded in the log file while training the CNN, you can use the following command line:
