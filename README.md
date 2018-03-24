@@ -49,7 +49,7 @@ python create_forgery_lmdb.py 2>&1 | tee -a data_creation.log
 ```
 ## Useful tips
 
-##### Running scripts in the backgroud mode
+##### Running scripts in the background mode
 If you would like to run your code in the background mode in order to close your terminal or SSH session, you should follow these steps:
 1. Press ``Ctrl+Z``: This will temporarly suspend your program.
 2. ``bg`` (Followed by "Enter" button): This will resume running your program in the background mode.
