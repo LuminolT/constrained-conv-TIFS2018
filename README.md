@@ -5,7 +5,7 @@ Drexel University - Philadelphia, PA, USA
 
 ## About
 
-This repository contains pycaffe scripts for general purpose image manipulation detection using constrained convolutional neural network (CNN), i.e., MISLnet architecture. The functions within this repository perform the following tasks:
+This repository contains pycaffe scripts for general purpose image manipulation detection using constrained convolutional neural network (CNN), i.e., MISLnet architecture. The functions within this repository are described below:
 
 - **training_mislnet.py:** Train a CNN architecture associated with a constrained convolutional layer. This script uses caffe prototxt files, namely `solver_mislnet.prototxt` (training hyper-parameters) and `train_val_mislnet.prototxt` (CNN layers).
 
