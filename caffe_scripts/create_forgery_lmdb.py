@@ -29,7 +29,7 @@ if __name__ == '__main__':
 	for p in ll:
 		img = cv2.imread(p)
 		k+= 1
-		i1_start = (img.shape[0]-n)/2
+		i1_start = (img.shape[0]-n)/2 #Find the coordinates of the central 1280x1280 sub-region
 		i1_stop = i1_start + n
 		i2_start = (img.shape[1]-m)/2
 		i2_stop = i2_start + m 
