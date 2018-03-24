@@ -47,7 +47,7 @@ Create image manipulation testing lmdb data by running the following command lin
 ```
 python create_forgery_lmdb.py 2>&1 | tee -a data_creation.log
 ```
-## Useful hints
+## Useful tips
 
 ##### Running scripts in the backgroud mode
 If you would like to run your code in the background mode in order to close your terminal or SSH session, you should follow these steps:
