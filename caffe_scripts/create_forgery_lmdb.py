@@ -176,7 +176,7 @@ if __name__ == '__main__':
 			break	
 	
 	from sklearn.utils import shuffle
-	X, y = shuffle(X, y, random_state=0)
+	X, y = shuffle(X, y, random_state=0) #Shuffling data and labels with the same order. This is optional for testing and validation datasets
 	
 	
 	os.chdir('/home/belhassen/caffe_scripts') #Change the work directory under where you are going to save the test_lmdb data
