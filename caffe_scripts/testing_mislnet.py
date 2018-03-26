@@ -67,4 +67,4 @@ np.set_printoptions(suppress=True)
 M = np.around(M*100, decimals=2)
 binary = [t_y[i]==p_y[i] for i in range(len(p_y))]
 acc = binary.count(True)/float(count)
-print acc
+print 'The testing accuracy is ' + str(acc)
