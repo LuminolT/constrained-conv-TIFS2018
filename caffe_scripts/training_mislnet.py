@@ -22,5 +22,5 @@ if __name__ == '__main__':
                 solver.net.params['convF'][0].data[...] = tmp
                 solver.net.params['convF'][1].data[...] = 0
                 solver.step(1)
-                print solver.net.params['convF'][0].data[0].sum() #The sum of all filter weights in each filter should be close to zero
+                print solver.net.params['convF'][0].data[0].sum() #Sum of the first filter weights. The sum of all filter weights in each filter should be very close to zero
                 print 'iteration ' + str(i+1) + ' is done'
