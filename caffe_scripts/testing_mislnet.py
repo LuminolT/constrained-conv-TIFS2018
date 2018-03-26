@@ -64,7 +64,9 @@ nbr = cmat.sum(1)
 nbr = np.array(nbr, dtype = 'f')
 M = cmat/nbr
 np.set_printoptions(suppress=True)
-M = np.around(M*100, decimals=2)
+M = np.around(M*100, decimals=2) # set the confusion matrix to two decimals
+
 binary = [t_y[i]==p_y[i] for i in range(len(p_y))]
 acc = binary.count(True)/float(count)
+
 print 'The testing accuracy is ' + str(acc)
