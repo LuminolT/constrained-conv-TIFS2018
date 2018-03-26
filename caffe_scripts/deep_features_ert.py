@@ -102,9 +102,13 @@ nbr = cmat.sum(1)
 nbr = np.array(nbr, dtype = 'f')
 M = cmat/nbr
 np.set_printoptions(suppress=True)
-M = np.around(M*100, decimals=2)
+M = np.around(M*100, decimals=2) #Set confusion matrix to two decimals
+
 binary = [t_y[i]==p_y[i] for i in range(len(p_y))]
-binary.count(True)/float(count)
+acc_sft = binary.count(True)/float(count)
+
+print 'The softmax-based CNN testing accuracy is ' + str(acc_sft)
+
 
 
 #####################################Extremely Randomized Trees (ERT) confusion matrix and testing accuracy
@@ -121,12 +125,12 @@ nbr5 = cmat5.sum(1)
 nbr5 = np.array(nbr5, dtype = 'f')
 M5 = cmat5/nbr5
 np.set_printoptions(suppress=True)
-M5 = np.around(M5*100, decimals=2)
+M5 = np.around(M5*100, decimals=2) ##Set confusion matrix to two decimals
 
 binary = [t_y[i]==cet.tolist()[i] for i in range(len(t_y))]
-binary.count(True)/float(count)
+acc_ert = binary.count(True)/float(count)
 
-
+print 'The ERT-based CNN testing accuracy is ' + str(acc_ert)
 
 
 
