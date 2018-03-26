@@ -30,7 +30,7 @@ p_y = []
 t_y = []
 feat_tt = []
 
-#In case you need to train & test the ERT classifier with smaller patches, e.g., 64x64
+#In case you need to test a trained CNN with smaller patches, e.g., 64x64
 ########################################
 n = 64
 i1_start = (256-n)/2
