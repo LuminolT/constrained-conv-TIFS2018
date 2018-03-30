@@ -1,3 +1,18 @@
+"""
+             _       _                          
+  _ __ ___  (_) ___ | | multimedia &                
+ | '_ ` _ \ | |/ __|| | information
+ | | | | | || |\__ \| | security
+ |_| |_| |_||_||___/|_| lab
+ __________________________________________________
+|__________________________________________________|
+
+ misl.ece.drexel.edu
+
+ DEPT. OF ELECTRICAL & COMPUTER ENGINEERING
+ DREXEL UNIVERSITY
+ """
+
 import os
 from os import listdir
 from random import shuffle
