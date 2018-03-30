@@ -44,7 +44,7 @@ Train MISLnet architecture by running the following command line under caffe_scr
 ```
 python training_mislnet.py 2>&1 | tee -a mislnet_train_date.log
 ```
-Create image manipulation testing lmdb data by running the following command line under caffe_scripts directory:
+Create image manipulation testing lmdb data by running the following command line under `caffe_scripts` directory:
 ```
 python create_forgery_lmdb.py 2>&1 | tee -a data_creation.log
 ```
