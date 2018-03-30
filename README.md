@@ -69,7 +69,7 @@ After you saved your caffe model you can run the testing without the deploy file
 ```
 ./build/tools/caffe test --model=/path/to/caffe_scripts/train_val_mislnet.prototxt --weights=/path/to/caffe_scripts/mislnet_six_classes.caffemodel -gpu 0 -iterations 2000
 ```
-Make sure to set the correct path to the `test_lmdb` data in your `train_val_mislnet.prototxt` file in the validation phase. The argument 2000 corresponds to the number of testing iterations given the batch size you chose in your prototxt file.
+Make sure to set the correct path to the `test_lmdb` data for the 'TEST' phase in your `train_val_mislnet.prototxt` file. The argument 2000 corresponds to the number of testing iterations given the batch size you chose in your prototxt file.
 
 
 ## Citing this Code
