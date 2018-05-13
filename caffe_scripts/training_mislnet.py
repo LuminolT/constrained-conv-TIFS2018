@@ -31,11 +31,8 @@ if __name__ == '__main__':
                 tmp = solver.net.params['convF'][0].data*10000 #Scale by 10k otherwise you may encounter numerical issues while normalizing
                 tmp[:,:,2,2] = 0 #Set central value of all filters to zero in order to exclude it in the normalization step
                 tmp = tmp.reshape((3,1,1,25)) #Vectorize each convolutional filter for the element-wise division
-                #tmp = tmp.reshape((3,3,1,25)) # for color images
                 tmp = tmp/tmp.sum(3).reshape((3,1,1,1)) #Element-wise division by the sum
-                #tmp = tmp/tmp.sum(3).reshape((3,3,1,1)) # for color images
                 tmp = tmp.reshape((3,1,5,5)) #Reshape back filters to the original dimension
-                #tmp = tmp.reshape((3,3,5,5)) # for color images
                 tmp[:,:,2,2] = -1 #Set central value of all filters to -1
                 solver.net.params['convF'][0].data[...] = tmp
                 solver.net.params['convF'][1].data[...] = 0
