@@ -81,10 +81,13 @@ Belhassen Bayar, and Matthew C. Stamm. "Constrained Convolutional Neural Network
 bibtex:
 
 ```
-@article{bayar2018mislnet,
-  title={Constrained Convolutional Neural Networks: A New approach Towards General Purpose Image Manipulation Detection},
+@article{bayar2018constrained,
+  title={Constrained Convolutional Neural Networks: A New Approach Towards General Purpose Image Manipulation Detection},
   author={Bayar, Belhassen and Stamm, Matthew C},
   journal={IEEE Transactions on Information Forensics and Security},
+  volume={13},
+  number={11},
+  pages={2691--2706},
   year={2018},
   publisher={IEEE}
 }
